@@ -12,8 +12,8 @@ public class DBConnection {
 	        String dbURL = "jdbc:mysql://localhost:3306/"; 
 	        // Database name to access 
 	        String dbName = "java-new"; 
-	        String dbUsername = "root"; 
-	        String dbPassword = ""; 
+	        String dbUsername = "username"; 
+	        String dbPassword = "Tu123456"; 
 	        try {
 				Class.forName("com.mysql.jdbc.Driver");
 			} catch (ClassNotFoundException e1) {
